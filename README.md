@@ -1,4 +1,4 @@
-# dl_knu_arin
+# ARIN702001_Deep Learning
 
 infor: 김동규/2023000903
 
