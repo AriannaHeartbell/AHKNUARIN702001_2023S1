@@ -11,7 +11,8 @@ Each model uses the model trained in the previous stage(e.g.d1 used d0 as a pret
 - d0: lr=0.008, epoch=40, lr scheduler=cosine annealingLR, random erasing; random horizontal flip is not used
 - d1: lr=0.007, epoch=20
 - d2: momentum=0.6
-- d3~d6: momentum=0.9, lr= 0.006: 96.48%(d5+d6 ensemble) 
+- d3~d6: momentum=0.9, lr= 0.006
+- final accuracy: 96.48%(d5+d6 ensemble) 
 
 ## Limitation
 - Due to frequent disconnection or session closure by Colab, I am unable to utilize multiprocessing during ensemble test(indicated by the 'num_workers' variable in the ensemble test code) or high model numbers for ensemble.
