@@ -3,7 +3,7 @@
 ## Basic Info
 김동규/2023000903
 
-All code was written and executed on Google Colab. 
+**All code was written and executed on Google Colab**
 
 ## model
 models: https://huggingface.co/AriannaHeartbell/AH_DL_assignment 
