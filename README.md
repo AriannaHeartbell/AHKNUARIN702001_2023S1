@@ -24,7 +24,7 @@ Each model uses the model trained in the previous stage(e.g. d1 used d0 as a pre
 
 ## Limitation
 - Due to frequent disconnection or session closure by Colab, I am unable to utilize multiprocessing during ensemble test(indicated by the 'num_workers' variable in the ensemble test code) or high model numbers for ensemble.
-- As a result of the limited GPU usage time provided by Colab and disconnection issue, I am unable to run a high number of epochs
+- As a result of the limited GPU usage time provided by Colab and disconnection issue, I am unable to run a high number of epochs continuously
 - I utilized both Colab Plus and Colab Free due to the limited GPU usage time. As a result, the runtime environment may not have been consistent throughout the entire process.
 
 ## Google Colab (Plus) Runtime info 
