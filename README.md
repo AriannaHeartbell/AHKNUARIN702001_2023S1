@@ -13,7 +13,7 @@ Each model uses the model trained in the previous stage(eg.d1 used d0 as a pretr
 - d2: momentum=0.6
 - d3~d6: momentum=0.9, lr= 0.006: 96.48%(d6) 
 
-## Colab Running environment
+## Colab Running Environment
 - GPU Device: Tesla T4
 - Operating System: Linux
 - OS Release: 5.15.107+
