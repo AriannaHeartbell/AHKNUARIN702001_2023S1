@@ -6,7 +6,7 @@
 All code was written and executed on Google Colab. 
 
 ## Summary
-Each model uses the model trained at previous stage and alter hyperparameters on current stage.
+Each model uses the model trained in the previous stage(eg.d1 used d0 as a pretrained model) and makes slight modifications to the hyperparameters in the current stage.
 - b1: [baseline](https://github.com/heechul-knu/cifar-baseline): 95.80%
 - d0: lr=0.008, epoch=40, lr scheduler=cosine annealingLR, random erasing; random horizontal flip is not used
 - d1: lr=0.007, epoch=20
