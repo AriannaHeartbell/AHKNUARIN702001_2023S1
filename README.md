@@ -6,7 +6,7 @@
 All code was written and executed on Google Colab. 
 
 ## model
-model: https://huggingface.co/AriannaHeartbell/AH_DL_assignment 
+models: https://huggingface.co/AriannaHeartbell/AH_DL_assignment 
 
 mirror: https://drive.google.com/drive/folders/1ROkorA_sqWzktwf6ycrvMp2FBSOOQhqA?usp=sharing
 
