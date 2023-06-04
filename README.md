@@ -19,7 +19,7 @@ Each model uses the model trained in the previous stage(e.g.d1 used d0 as a pret
 - As a result of the limited GPU usage time provided by Colab and disconnection issue, I am unable to run a high number of epochs
 - I utilized both Colab Plus and Colab Free due to the limited GPU usage time. As a result, the runtime environment may not have been consistent throughout the entire process.
 
-## Colab Running Environment (Plus)
+## Google Colab (Plus) Runtime info 
 - GPU Device: Tesla T4
 - Operating System: Linux
 - OS Release: 5.15.107+
