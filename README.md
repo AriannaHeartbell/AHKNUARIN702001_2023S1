@@ -14,7 +14,7 @@ Each model uses the model trained in the previous stage(eg.d1 used d0 as a pretr
 - d3~d6: momentum=0.9, lr= 0.006: 96.48%(d6) 
 
 ## Limitation
-- Due to disconnection or session closure by Colab, I am unable to utilize multiprocessing (indicated by the 'num_workers' variable in the ensemble test code).
+- Due to disconnection or session closure by Colab, I am unable to utilize multiprocessing during ensemble test(indicated by the 'num_workers' variable in the ensemble test code) or more model numbers for ensemble.
 - As a result of the limited GPU usage time provided by Colab, I am unable to run a high number of epochs
 - I utilized both Colab Plus and Colab Free for training and testing purposes due to the limited GPU usage time. As a result, the runtime environment may not have been consistent throughout the entire process.
 
