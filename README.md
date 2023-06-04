@@ -6,7 +6,7 @@
 All code was written and executed on Google Colab. 
 
 ## model
-model: https://huggingface.co/AriannaHeartbell/AH_DL_assignment
+model: https://huggingface.co/AriannaHeartbell/AH_DL_assignment or https://drive.google.com/drive/folders/1ROkorA_sqWzktwf6ycrvMp2FBSOOQhqA?usp=sharing
 
 **Final version is d6, and ensemble test requires both d5(resnet18_cifar10_0.006000_5.pth) and d6(resnet18_cifar10_0.006000_6.pth)**
 
