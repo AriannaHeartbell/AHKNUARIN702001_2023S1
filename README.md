@@ -5,6 +5,8 @@
 
 All code was written and executed on Google Colab. 
 
+model: https://huggingface.co/AriannaHeartbell/AH_DL_assignment
+
 ## Summary
 Each model uses the model trained in the previous stage(e.g.d1 used d0 as a pretrained model) and makes slight modifications to the hyperparameters in the current stage.
 - b1: [baseline](https://github.com/heechul-knu/cifar-baseline): 95.80%
