@@ -15,7 +15,7 @@ mirror: https://drive.google.com/drive/folders/1ROkorA_sqWzktwf6ycrvMp2FBSOOQhqA
 ## Summary
 
 Each model uses the model trained in the previous stage(e.g.d1 used d0 as a pretrained model) and makes slight modifications to the hyperparameters in the current stage.
-- b1: [baseline](https://github.com/heechul-knu/cifar-baseline): 95.80% (Although reportead as 97.05% on Leaderboard)
+- b1: [baseline](https://github.com/heechul-knu/cifar-baseline): 95.80% **(Although reported as 97.05% on the leaderboard)**
 - d0: lr=0.008, epoch=40, lr scheduler=cosine annealingLR, random erasing; random horizontal flip is not used
 - d1: lr=0.007, epoch=20
 - d2: momentum=0.6
