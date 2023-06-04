@@ -5,9 +5,13 @@
 
 All code was written and executed on Google Colab. 
 
+## model
 model: https://huggingface.co/AriannaHeartbell/AH_DL_assignment
 
+**Final version is d6, and ensemble test requires both d5(resnet18_cifar10_0.006000_5.pth) and d6(resnet18_cifar10_0.006000_6.pth)**
+
 ## Summary
+
 Each model uses the model trained in the previous stage(e.g.d1 used d0 as a pretrained model) and makes slight modifications to the hyperparameters in the current stage.
 - b1: [baseline](https://github.com/heechul-knu/cifar-baseline): 95.80%
 - d0: lr=0.008, epoch=40, lr scheduler=cosine annealingLR, random erasing; random horizontal flip is not used
